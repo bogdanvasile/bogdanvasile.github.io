@@ -33,11 +33,11 @@ function printTime(stringTime) {
 }
 
 function printEnd() {
-	document.getElementById("clock").innerHTML = "BEER TIME!!!!";
+	document.getElementById("clock").innerHTML = "FUN TIME!!!!";
 }
 
 function createTime () {
-	var differenceMiliseconds = setDifference(18);
+	var differenceMiliseconds = setDifference(23);
 	if (differenceMiliseconds < 0) {
 		printEnd();
 	} else {
@@ -47,11 +47,7 @@ function createTime () {
 	}
 }
 
-diff = setDifference(21)
-array = parseMiliseconds(diff)
-stringTime = convertTime(array)
-time = printTime(stringTime)
-window.setInterval(createTime, 5000);
 
+setInterval(createTime, 1000);
 
 
