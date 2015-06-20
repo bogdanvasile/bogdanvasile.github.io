@@ -33,11 +33,11 @@ function printTime(stringTime) {
 }
 
 function printEnd() {
-	document.getElementById("clock").innerHTML = "FUN TIME!!!!";
+	document.getElementById("clock").innerHTML = "The Apple Watch is here!";
 }
 
 function createTime () {
-	var differenceMiliseconds = setDifference(23);
+	var differenceMiliseconds = setDifference(119);
 	if (differenceMiliseconds < 0) {
 		printEnd();
 	} else {
