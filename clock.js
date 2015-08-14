@@ -37,7 +37,7 @@ function printEnd() {
 }
 
 function createTime () {
-	var differenceMiliseconds = setDifference(119);
+	var differenceMiliseconds = setDifference(10);
 	if (differenceMiliseconds < 0) {
 		printEnd();
 	} else {
